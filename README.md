@@ -1,4 +1,5 @@
-#Library
+
+
 
 **Integrate**
 
@@ -64,47 +65,47 @@
 
 5.  **_Extra environment with env-cmd_**
 
-> "start:dev": "env-cmd -f env/.env.development.js npm run start"
-> "build:dev": "env-cmd -f env/.env.development.js npm run build"
-> Prefix env must be REACT_APP\_
+> - "start:dev": "env-cmd -f env/.env.development.js npm run start"
+> - "build:dev": "env-cmd -f env/.env.development.js npm run build"
+> - Prefix env must be REACT_APP\_
 
 **Build & Deploy**
 
 1.  **Build**
 
 > **_Environment production_**
-> yarn build:prod
+> - `yarn build:prod`
 
 2.  **Deploy**
 
 > **_Environment dev_**
-> yarn start:dev
+> - `yarn start:dev`
 
 **Unit test**
 
 > **_Normal test_**
-> yarn test
+> - `yarn test`
 
 > **_Test coverage_**
-> yarn test -- --coverage
-> reference config in package.json
+> - `yarn test -- --coverage`
+> - reference config in package.json
 
 **Install nvm to manage version**
 
 > **_Get list node remote version_**
-> nvm ls-remote
+> - `nvm ls-remote`
 
 > **_Install node_**
-> nvm install 16.14.2
+> - `nvm install 16.14.2`
 
 > **_Get list node installed version_**
-> nvm ls-remote
+> - `nvm ls-remote`
 
 > **_Switch to other version_**
-> nvm use 16.14.2 (current)
-> nvm use 16.14.2 --default (default)
-> nvm use --lts (latest in list installed)
+> - `nvm use 16.14.2` (current)
+> - `nvm use 16.14.2 --default` (default)`
+> - `nvm use --lts` (latest in list installed)`
 
 **Note**
 
-> Please install "yarn" to run command instead of "npm"
+> Please install `yarn` to run command instead of `npm`
