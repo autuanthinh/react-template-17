@@ -22,7 +22,11 @@
 - "@types/react-router-dom": "^5.3.2"
 - "connected-react-router": "^6.8.0"
 
-3. **Multi language**
+3. **Stylesheet**
+
+- "node-sass": "^6.0.1"
+
+4. **Multi language**
 
 - "shelljs": "^0.8.4"
 - "plop": "^3.0.5"
@@ -34,9 +38,9 @@
 - "react-intl": "^2.9.0"
 - "babel-plugin-react-intl": "^8.2.25"
 
-4. **Override webpack by craco**
+5. **Override webpack by craco**
 
-- "@craco/craco": "^6.4.0"
+- "@craco/craco": "^6.4.3"
 - "craco-alias": "^3.0.1"
 - "craco-swc": "^0.1.3"
 
@@ -84,3 +88,23 @@
 > **_Test coverage_**
 > yarn test -- --coverage
 > reference config in package.json
+
+**Install nvm to manage version**
+
+> **_Get list node remote version_**
+> nvm ls-remote
+
+> **_Install node_**
+> nvm install 16.14.2
+
+> **_Get list node installed version_**
+> nvm ls-remote
+
+> **_Switch to other version_**
+> nvm use 16.14.2 (current)
+> nvm use 16.14.2 --default (default)
+> nvm use --lts (latest in list installed)
+
+**Note**
+
+> Please install "yarn" to run command instead of "npm"

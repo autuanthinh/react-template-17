@@ -149,5 +149,8 @@
     "shelljs": "^0.8.4",
     "sort-package-json": "^1.55.0",
     "swc-loader": "0.1.15"
+  },
+  "engines" : { 
+    "node" : ">=16.0.0 <17.0.0" 
   }
 }
